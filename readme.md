@@ -10,6 +10,7 @@
     ```
     
 - `npx prisma init`
+- 添加 `.env` 文件的 git 忽略
 - 定义模型，注意 SQL 和 NoSQL 两类区分
 - 定义迁移，注意 SQL：`npx prisma migrate dev` 和 NoSQL： `npx prisma db push` 两类区分
 - 创建客户端 prisma/client.ts
